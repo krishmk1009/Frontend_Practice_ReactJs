@@ -10,6 +10,7 @@ import explorer from './constant/FolderData'
 import FileExplorer from './components/FileExplorer'
 import comments from './constant/commentData'
 import Comments from './components/Comments'
+import Todo from './components/Todo'
 
 function App() {
   const [products, setProducts] = useState([])
@@ -31,17 +32,18 @@ function App() {
   }
   useEffect(() => {
 
-    fetchProducts()
+    // fetchProducts()
   }, [])
 
   return (
     <>
       {/* <Accordian /> */}
-      <Products data={products}  />
+      {/* <Products data={products}  /> */}
       {/* <Quizz /> */}
       {/* <BubbleSortVisualization /> */}
       {/* <FileExplorer explorer={explorer} />  */}
       {/* <Comments comments={nestedCommentsData} /> */}
+      <Todo />
     </>
   )
 }
