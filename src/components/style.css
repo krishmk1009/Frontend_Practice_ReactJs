@@ -1,0 +1,11 @@
+.accordian-single{
+    
+    width: 100%;
+    background-color: gray;
+    padding-left: 10px;
+}
+
+.file{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,21 @@
+{
+    "elements": [
+      {
+        "heading": "Element 1",
+        "description": "This is the description for Element 1."
+      },
+      {
+        "heading": "Element 2",
+        "description": "Here's the description for Element 2."
+      },
+      {
+        "heading": "Element 3",
+        "description": "The description for Element 3 goes here."
+      },
+      {
+        "heading": "Element 4",
+        "description": "The description for Element 4 goes here."
+      }
+    ]
+  }
+  
