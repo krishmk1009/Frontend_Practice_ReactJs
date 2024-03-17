@@ -11,6 +11,8 @@ import FileExplorer from './components/FileExplorer'
 import comments from './constant/commentData'
 import Comments from './components/Comments'
 import Todo from './components/Todo'
+import { accordion } from './constant/accordian'
+import Accor from './components/Accor'
 
 function App() {
   const [products, setProducts] = useState([])
@@ -37,13 +39,14 @@ function App() {
 
   return (
     <>
-      <Accordian />
+      {/* <Accordian /> */}
       {/* <Products data={products}  /> */}
       {/* <Quizz /> */}
       {/* <BubbleSortVisualization /> */}
       {/* <FileExplorer explorer={explorer} />  */}
       {/* <Comments comments={nestedCommentsData} /> */}
       {/* <Todo /> */}
+      <Accor data={accordion} /> 
     </>
   )
 }
