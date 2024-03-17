@@ -13,6 +13,8 @@ import Comments from './components/Comments'
 import Todo from './components/Todo'
 import { accordion } from './constant/accordian'
 import Accor from './components/Accor'
+import Insertion from './components/Insertion'
+import ProgressBar from './components/ProgressBar'
 
 function App() {
   const [products, setProducts] = useState([])
@@ -46,7 +48,9 @@ function App() {
       {/* <FileExplorer explorer={explorer} />  */}
       {/* <Comments comments={nestedCommentsData} /> */}
       {/* <Todo /> */}
-      <Accor data={accordion} /> 
+      {/* <Accor data={accordion} />  */}
+      {/* <Insertion /> */}
+      <ProgressBar />
     </>
   )
 }
