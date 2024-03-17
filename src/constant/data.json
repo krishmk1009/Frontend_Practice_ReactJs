@@ -1,21 +1,41 @@
 {
-    "elements": [
-      {
-        "heading": "Element 1",
-        "description": "This is the description for Element 1."
-      },
-      {
-        "heading": "Element 2",
-        "description": "Here's the description for Element 2."
-      },
-      {
-        "heading": "Element 3",
-        "description": "The description for Element 3 goes here."
-      },
-      {
-        "heading": "Element 4",
-        "description": "The description for Element 4 goes here."
-      }
-    ]
-  }
-  
+  "elements": [
+    {
+      "heading": "Element 1",
+      "description": "This is the description for Element 1.",
+      "subElements": [
+        {
+          "heading": "Sub-Element 1",
+          "description": "This is a sub-description for Sub-Element 1.",
+          "subElements": []
+        },
+        {
+          "heading": "Sub-Element 2",
+          "description": "Here's a sub-description for Sub-Element 2.",
+          "subElements": []
+        }
+      ]
+    },
+    {
+      "heading": "Element 2",
+      "description": "Here's the description for Element 2.",
+      "subElements": [
+        {
+          "heading": "Sub-Element 3",
+          "description": "The sub-description for Sub-Element 3 goes here.",
+          "subElements": []
+        }
+      ]
+    },
+    {
+      "heading": "Element 3",
+      "description": "The description for Element 3 goes here.",
+      "subElements": []
+    },
+    {
+      "heading": "Element 4",
+      "description": "The description for Element 4 goes here.",
+      "subElements": []
+    }
+  ]
+}

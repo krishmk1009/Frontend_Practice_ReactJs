@@ -37,13 +37,13 @@ function App() {
 
   return (
     <>
-      {/* <Accordian /> */}
+      <Accordian />
       {/* <Products data={products}  /> */}
       {/* <Quizz /> */}
       {/* <BubbleSortVisualization /> */}
       {/* <FileExplorer explorer={explorer} />  */}
       {/* <Comments comments={nestedCommentsData} /> */}
-      <Todo />
+      {/* <Todo /> */}
     </>
   )
 }
