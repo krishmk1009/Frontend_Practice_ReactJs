@@ -31,10 +31,10 @@ const ProgressBar = () => {
                 ))}
             </div>
 
-            <div>
-                <button onClick={handleBack} disabled={isDisabledBack}>Back</button>
-                <button onClick={handleNext} disabled={isDisabledNext}>Next</button>
-                <span> Step : {obj.bar[currentIndex]}</span>
+            <div style={{display:"flex" , justifyContent:"center"}}>
+                <button style={{margin:"0 5px"}} onClick={handleBack} disabled={isDisabledBack}>Back</button>
+                <button style={{margin:"0 5px"}} onClick={handleNext} disabled={isDisabledNext}>Next</button>
+                <span style={{margin:"0 5px"}}> Step : {obj.bar[currentIndex]}</span>
             </div>
         </div>
     );
